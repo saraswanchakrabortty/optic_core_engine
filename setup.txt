@@ -1,0 +1,30 @@
+Author : Saraswan Chakrabortty
+
+********************** Step 1 ***********************
+
+>>> cd to server folder and your hugging face token in the .ipynb file
+
+>>> install required python dependencies running below command
+pip install fastapi uvicorn python-multipart pillow diffusers transformers torch
+
+>>> run the python backend with the below command
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
+
+
+
+********************* Step 2 *************************
+
+>>> after runnig the fastapi backend cd to client folder keeping the server running
+
+>>> Intall yarn globally with the below command (if you do not have already)
+npm i -g yarn
+
+
+>>> run below commands one by one
+
+yarn  <-- Install node dependencies
+
+yarn dev <-- run the application
+
+
+******************************** Enjoy ***********************************

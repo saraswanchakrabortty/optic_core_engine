@@ -1,0 +1,283 @@
+# ===========================================
+# OS-SPECIFIC FILES
+# ===========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*/.Spotlight-V100
+*/.Trashes
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# ===========================================
+# NODE / JAVASCRIPT / WEB PROJECTS
+# ===========================================
+
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+out/
+tmp/
+.cache/
+.vite/
+.next/
+.nuxt/
+.astro/
+.webpack-cache/
+
+# Coverage
+coverage/
+*.lcov
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===========================================
+# PYTHON PROJECTS
+# ===========================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Cython debug symbols
+cython_debug/
+
+# ===========================================
+# FRONTEND FRAMEWORKS (React, Vue, Angular, Next.js)
+# ===========================================
+.cache/
+public/
+temp/
+*.tsbuildinfo
+.sass-cache/
+.stylelintcache
+.eslintcache
+
+# Parcel cache
+.parcel-cache
+
+# Gatsby
+.cache/
+public/
+
+# Vue
+dist/
+
+# React Native
+.expo/
+web-build/
+android/
+ios/
+
+# ===========================================
+# CHROME EXTENSION SPECIFIC
+# ===========================================
+*.crx
+*.pem
+*.zip
+*.xpi
+
+# ===========================================
+# EDITORS / IDEs
+# ===========================================
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs / etc.
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# ===========================================
+# PACKAGE MANAGERS
+# ===========================================
+
+# npm / Yarn / pnpm
+.npm
+.yarn/
+.pnpm-debug.log*
+.yarn-integrity
+.yarnrc.yml
+.yarnrc
+
+# Poetry / Pipenv / Conda
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+Pipfile.lock
+poetry.lock
+poetry.toml
+
+# ===========================================
+# TESTS / REPORTS / COVERAGE
+# ===========================================
+coverage/
+reports/
+cypress/screenshots/
+cypress/videos/
+test-output/
+
+# ===========================================
+# MISCELLANEOUS
+# ===========================================
+*.orig
+*.rej
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Ignore local files
+notes/
+drafts/
+screenshots/
+downloads/
+local/
+private/
+
+# ===========================================
+# CUSTOM
+# ===========================================
+# Custom build or export folders
+/export/
+/artifacts/
+/results/
+/uploads/

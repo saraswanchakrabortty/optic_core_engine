@@ -1,0 +1,28 @@
+Function: extract_features(image_path)
+Purpose: Extracts a feature vector from an image using the ResNet50 model.
+
+1. img = image.load_img(image_path, target_size=(224, 224))
+   - Loads the image from the given file path.
+   - Resizes the image to 224x224 pixels (required input size for ResNet50).
+
+2. img_data = image.img_to_array(img)
+   - Converts the image to a numerical format (NumPy array) that the model can process.
+
+3. img_data = np.expand_dims(img_data, axis=0)
+   - Adds an extra dimension to the array to create a batch of size 1.
+   - Deep learning models expect a batch input, even if it contains only one image.
+
+4. img_data = preprocess_input(img_data)
+   - Prepares the image by applying the same preprocessing used during ResNet50 training.
+   - Adjusts pixel values and color channels.
+
+5. features = model.predict(img_data)
+   - Passes the image through the pre-trained ResNet50 model.
+   - Gets the feature vector from the last layer (without the classification part).
+
+6. return features.flatten()
+   - Flattens the output from 2D to 1D (e.g., from (1, 2048) to (2048,)).
+   - This 1D array represents the image features (a kind of "digital signature").
+
+Summary: This function converts an image into a set of 2048 numbers that describe the image content,
+which can be used to compare it with other images.
