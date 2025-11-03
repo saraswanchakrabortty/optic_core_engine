@@ -48,9 +48,9 @@ It continuously evolves by learning from newly generated images — each text-to
 
 ---
 
-## 🧑‍💻 Author
+## 🧑‍💻 Setup & Run the project:
 
-**Setup & Run the project:** Refer to the setup.txt file.
+**Refer to the setup.txt file in project root.**
 
 ---
 
