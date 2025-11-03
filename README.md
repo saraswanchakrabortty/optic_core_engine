@@ -48,6 +48,12 @@ It continuously evolves by learning from newly generated images — each text-to
 
 ---
 
+## 🧑‍💻 Author
+
+**Setup & Run the project:** Refer to the setup.txt file.
+
+---
+
 ## 🛠️ Troubleshooting
 
 - ⚙️ **CUDA errors:** Ensure you have GPU-compatible PyTorch installed.  
@@ -68,7 +74,7 @@ It continuously evolves by learning from newly generated images — each text-to
 
 ## 🧑‍💻 Author
 
-**Developed by:** [Saraswan Chakrabortty]  
+**Developed by:** Saraswan Chakrabortty  
 
 ---
 
